@@ -1,7 +1,5 @@
 tasks:
-  - init: |
-      /workspace/rustlings/install.sh
-      /workspace/.cargo/bin/rustup component add clippy
+  - init: /workspace/rustlings/install.sh
     command: /workspace/.cargo/bin/rustlings watch
 
 vscode:
